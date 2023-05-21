@@ -14,4 +14,4 @@ six==1.16.0
 sqlparse==0.4.4
 sweetify==2.3.1
 tzdata==2023.3
-Werkzeug==2.3.4
+Werkzeug==2.2.3
