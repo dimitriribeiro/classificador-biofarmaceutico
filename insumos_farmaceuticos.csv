@@ -1,0 +1,114 @@
+nome,referencia,cls_terap,solubilidade,cls_biofarm
+ACETATO DE CÁLCIO,IF001 -00,Adjuvante farmacêutico utilizado em soluções para diálise.,"Facilmente solúvel em água, pouco solúvel em álcool etílico.",Classe III
+ACETATO DE DEXAMETASONA,IF002 -00,Anti-inflamatório.,"Praticamente insolúvel em água, facilmente solúvel em dioxano, álcool etílico e em
+álcool metílico",Classe I
+ACETATO DE HIDROCORTISONA,IF003 -00,Corticosteroide.,"Praticamente insolúvel em água, pouco solúvel em álcool etílico absoluto.",Classe II
+ACETATO DE MEDROXIPROGESTERONA,IF004 -01,Progestágeno.,"Praticamente insolúvel em água, solúvel em dioxano e moderamente solúvel em álcool
+Etílico",Classe II
+ACETAZOLAMIDA,IF005 -00,Diurético.,"Muito pouco solúvel em água, pouco solúvel em álcool etílico. Solúvel em soluções
+diluídas de hidróxidos alcalinos",Classe II
+ACETILCISTEÍNA,IF006 -00,Mucolítico.,Facilmente solúvel em água e em álcool etílico.,Classe IV
+ACETILRACEMETIONINA,IF007 -00,Lipotrópico.,Solúvel em água e em álcool etílico em ebulição,Classe IV
+ACICLOVIR,IF008 -00,Antiviral.,"Pouco solúvel em água, facilmente solúvel em dimetilsulfóxido e muito pouco solúvel
+em álcool etílico. Solúvel em soluções diluídas de ácidos minerais e hidróxidos alcalinos.",Classe IV
+ÁCIDO ACETILSALICÍLICO,IF009 -00,"Analgésico; antipirético; anti-inflamatório não-esteroide; antiagregante plaquetário; utilizado
+também para alívio da enxaqueca e em cardiopatia isquêmica.","Pouco solúvel em água, facilmente solúvel em álcool etílico .",Classe II
+ÁCIDO ASCÓRBICO,IF010 -01,Vitamina.,"Facilmente solúvel em água, moderadamente solúvel em álcool etílico.",Classe I
+ÁCIDO BENZOICO,IF011 -01,Antimicrobiano; conservante,"Moderadamente solúvel em água, solúvel em água em ebulição, facilmente solúvel em
+álcool etílico e ácidos graxos",Classe II
+ÁCIDO BÓRICO,IF012-01,Antisséptico e adjuvante farmacêutico,"Solúvel em água, facilmente solúvel em água em ebulição e glicerol a 85% (v/v),
+solúvel em álcool etílico",Classe IV
+ÁCIDO CÍTRICO,IF013 -00,Acidulante,"Muito solúvel em água, facilmente solúvel em álcool etílico .",Classe II
+ÁCIDO DESIDROCÓLICO,IF014 -00,Colagogo,"Muito pouco solúvel em água, pouco solúvel em ácido acético glacial e álcool etílico.
+Solúvel em hidróxidos e carbonatos alcalinos",Classe I
+ÁCIDO FÓLICO,IF015 -00,Hematopoiético,"Praticamente insolúvel em água, insolúvel em álcool etílico. Solúvel em soluções de
+hidróxidos alcalinos. Solúvel em ácido clorídrico, produzindo soluções amarelo-pálidas",Classe I
+ÁCIDO MEFENÂMICO,IF018 -00,Analgésico,"Praticamente insolúvel em água, moderadamente solúvel em álcool etílico e álcool
+metílico. Solúvel em soluções de hidróxidos alcalinos",Classe IV
+ÁCIDO NALIDÍXICO,IF019 -00,Antibacteriano,"Praticamente insolúvel em água, pouco solúvel em álcool etílico. Solúvel em soluções
+diluídas de hidróxidos alcalinos",Classe III
+ÁCIDO NICOTÍNICO,IF020 -01,Vitamina.,"Moderadamente solúvel em água, facilmente solúvel em água em ebulição e em álcool
+etílico em ebulição. Facilmente solúvel em soluções de hidróxidos e carbonatos alcalinos",Classe I
+ÁCIDO PARAMINOBENZOICO,IF021 -00,Protetor tópico,"Pouco solúvel em água, facilmente solúvel em álcool etílico. Facilmente solúvel em
+soluções de hidróxidos e carbonatos alcalinos",Classe I
+ÁCIDO SALICÍLICO,IF022 -01,Ceratolítico,"Pouco solúvel em água, facilmente solúvel em álcool etílico, moderadamente solúvel
+em óleos graxos",Classe III
+ÁCIDO UNDECILÊNICO,IF023 -00,Antifúngico tópico,"Praticamente insolúvel em água, facilmente solúvel em álcool etílico, óleos graxos e
+Essenciais",Classe IV
+ADENOSINA,IF024 -01,Antiarrítmico,"Moderadamente solúvel em água, solúvel em água aquecida, praticamente insolúvel
+em álcool etílico. Dissolve-se em ácidos minerais diluídos",Classe II
+ALANINA,IF030 -00,Aminoácido.,"Facilmente solúvel em água, muito pouco solúvel em álcool etílico",Classe III
+ALBENDAZOL,IF031 -00,Anti-helmíntico,"Praticamente insolúvel em água e em álcool etílico, facilmente solúvel em ácido
+fórmico anidro, solúvel em ácido acético glacial, muito pouco solúvel em álcool isopropílico. Muito
+pouco solúvel em ácido clorídrico 0,1 M e insolúvel em hidróxido de sódio 0,1 M",Classe III
+ÁLCOOL BENZÍLICO,IF032 -00,Anestésico local; antimicrobiano,"Solúvel em água, miscível com álcool etílico",Classe III
+AMINOFILINA,IF038 -00,Broncodilatador,"Solúvel em água isenta de dióxido de carbono, praticamente insolúvel em álcool
+etílico absoluto",Classe III
+AMOXICILINA,IF039 -01,Antibacteriano,"Pouco solúvel em água, álcool etílico e álcool metílico. Insolúvel em acetonitrila.
+Solúvel em soluções de hidróxidos alcalinos",Classe I
+AMPICILINA,IF040 -00,Antibacteriano,"Pouco solúvel em água e álcool metílico, praticamente insolúvel em álcool etílico
+absoluto. Solúvel em soluções ácidas e alcalinas diluídas",Classe II
+AMPICILINA SÓDICA,IF041 -00,Antibacteriano,Muito solúvel em água,Classe II
+ANTIMONIATO DE MEGLUMINA,IF042 -01,Antiprotozoário,"Solúvel em água, praticamente insolúvel em álcool etílico",Classe IV
+ARTEMÉTER,IF043 -00,Antimalárico,"Praticamente insolúvel em água, facilmente solúvel em álcool etílico absoluto",Classe IV
+ARTESUNATO,IF044 -00,Antimalárico,"Muito pouco solúvel em água, facilmente solúvel em álcool etílico",Classe I
+ATENOLOL,IF046 -00,Anti-hipertensivo,"Muito pouco solúvel em água, facilmente solúvel em álcool metílico, solúvel em ácido
+acético glacial e álcool etílico, praticamente insolúvel em acetonitrila",Classe IV
+AZATIOPRINA,IF047 -00,Imunossupressor,"Praticamente insolúvel em água e álcool etílico. Solúvel em soluções diluídas de
+hidróxidos alcalinos e pouco solúvel em soluções diluídas de ácidos minerais",Classe IV
+AZITROMICINA,IF048 -00,Antibacteriano,"Muito pouco solúvel em água, facilmente solúvel em álcool etílico e álcool metílico.
+Muito pouco solúvel em soluções de hidróxidos alcalinos. Moderadamente solúvel em soluções
+Ácidas",Classe IV
+BENZNIDAZOL,IF049 -01,Antichagásico,"Praticamente insolúvel em água, muito solúvel em dimetilsulfóxido, pouco solúvel em
+álcool metílico, muito pouco solúvel em álcool etílico, álcool isopropílico e glicerol. Muito pouco
+solúvel em hidróxido de sódio 0,1 M e ácido clorídrico 0,1 M",Classe III
+BENZOATO DE BENZILA,IF050 -00,Escabicida,"Praticamente insolúvel em água. Miscível em álcool etílico, éter etílico, clorofórmio e
+óleos fixos. Praticamente insolúvel em glicerol",Classe III
+BENZOATO DE ESTRADIOL,IF051 -00,Estrogênio,"Praticamente insolúvel em água, pouco solúvel em álcool etílico e em óleos vegetais.",Classe II
+BENZOCAÍNA,IF052 -01,Anestésico,"Muito pouco solúvel em água, facilmente solúvel em álcool etílico. Solúvel em
+soluções diluídas de ácidos",Classe II
+BENZOILMETRONIDAZOL,IF053 -00,Antibacteriano; antiprotozoário,"Praticamente insolúvel em água, pouco solúvel em álcool etílico absoluto.",Classe I
+BICARBONATO DE SÓDIO,IF054 -00,Antiácido,"Solúvel em água, praticamente insolúvel em álcool etílico",Classe II
+BISACODIL,IF055 -00,Catártico,"Praticamente insolúvel em água, pouco solúvel em álcool etílico. Solúvel em ácidos
+minerais diluídos",Classe IV
+BISSULFATO DE CLOPIDOGREL,IF056 -00,Inibidor da agregação plaquetária,Facilmente solúvel em água e álcool metílico,Classe IV
+BORATO DE SÓDIO,IF057 -00,"Agente antisséptico, detergente, adstringente para mucosas","Solúvel em água, muito solúvel em água em ebulição, facilmente solúvel em glicerol,
+insolúvel em álcool etílico.",Classe III
+BROMAZEPAM,IF058 -00,Ansiolítico,"Insolúvel em água, moderadamente solúvel em álcool etílico",Classe I
+BROMETO DE NEOSTIGMINA,IF059 -00,Colinérgico,"Muito solúvel em água, solúvel em álcool etílico",Classe II
+BROMETO DE SÓDIO,IF060 -00,"Sedativo, hipnótico, anticonvulsivante",Facilmente solúvel em água e solúvel em álcool etílico,Classe III
+BROMIDRATO DE CITALOPRAM,IF061 -00,Antidepressivo,"Moderadamente solúvel em água, solúvel em álcool metílico e álcool etílico",Classe III
+BROMIDRATO DE HIOSCIAMINA,IF062 -00,Antiemético,"Praticamente insolúvel em água. Moderadamente solúvel em acetonitrila. Pouco
+solúvel em álcool etílico. Solúvel em soluções diluídas de ácidos minerais",Classe IV
+BUTILBROMETO DE ESCOPOLAMINA,IF064 -00,Antiespasmódico,"Facilmente solúvel em água, pouco solúvel em álcool etílico",Classe IV
+CAFEÍNA,IF065 -00,Estimulante central,Moderadamente solúvel em água e álcool etílico,Classe III
+CALAMINA,IF066 -01,Adstringente; antipruriginoso,"Praticamente insolúvel em água. Dissolve, com efervescência, em ácido clorídrico",Classe IV
+CÂNFORA,IF067 -00,Antipruriginoso tópico,"Pouco solúvel em água; muito solúvel em álcool etílico; facilmente solúvel em óleos
+fixos e voláteis",Classe II
+CAPTOPRIL,IF068 -01,Anti-hipertensivo,"Solúvel em água, facilmente solúvel em álcool metílico. Solúvel em soluções diluídas
+de hidróxidos alcalinos",Classe III
+CARBAMAZEPINA,IF069 -00,Anticonvulsivante,"Praticamente insolúvel em água, solúvel em álcool metílico, moderadamente solúvel
+em álcool etílico",Classe III
+CARBIDOPA,IF070 -01,Agente dopaminérgico,"Pouco solúvel em água e muito pouco solúvel em álcool etílico. Solúvel em soluções
+diluídas de ácidos minerais",Classe II
+CARBONATO BÁSICO DE BISMUTO,IF071 -00,Antiácido,"Praticamente insolúvel em água e álcool etílico. Dissolve-se, com efervescência, em
+ácidos minerais diluídos e ácido acético glacial",Classe IV
+CARBONATO DE CÁLCIO,IF072 -00,"Antiácido, suplemento nutricional, quelante de fósforo","Praticamente insolúvel em água. Pouco solúvel em água, quando na presença de sais
+amoniacais ou de dióxido de carbono. Praticamente insolúvel em álcool etílico. Dissolve com
+efervescência em ácido acético M, ácido clorídrico 3 M e ácido nítrico 2 M",Classe I
+CARBONATO DE LÍTIO,IF073 -00,Antidepressivo,"Pouco solúvel em água, praticamente insolúvel em álcool etílico",Classe I
+CARBONATO DE MAGNÉSIO,IF074 -01,Antiácido e laxativo,"Praticamente insolúvel em água e álcool etílico; dissolve-se a frio, em quantidade
+apreciável, na água saturada de dióxido de carbono. Dissolve-se com efervescência em ácidos
+Diluídos",Classe IV
+CARBONATO DE POTÁSSIO,IF075 -00,Alcalinizante e diurético,Facilmente solúvel em água e praticamente insolúvel em álcool etílico,Classe I
+CEFACLOR,IF078 -00,Antibiótico,"Pouco solúvel em água, praticamente insolúvel em álcool metílico",Classe II
+CEFADROXILA,IF079 -01,Antibiótico.,"Pouco solúvel em água, muito pouco solúvel em álcool etílico",Classe IV
+CEFALEXINA,IF080 -00,Antibacteriano,"Pouco solúvel em água, moderadamente solúvel em álcool metílico e praticamente
+insolúvel em álcool etílico",Classe IV
+CEFALOTINA SÓDICA,IF081 -00,Antibiótico,"Facilmente solúvel em água, em solução salina e em solução de glicose. Insolúvel na
+maioria dos solventes orgânicos",Classe IV
+CEFAZOLINA SÓDICA,IF082 -00,Antimicrobiano,Muito solúvel em água e moderadamente solúvel em álcool etílico,Classe IV
+CEFOXITINA SÓDICA,IF083 -00,Antimicrobiano,"Muito solúvel em água, moderadamente solúvel em álcool etílico",Classe I
+CEFTAZIDIMA PENTAIDRATADA,IF084 -00,Antibiótico,"Pouco solúvel em água. Pouco solúvel em álcool metílico, praticamente insolúvel em
+acetona e álcool. Dissolve-se em soluções ácidas e alcalinas",Classe IV
+CIANOCOBALAMINA,IF086 -00,Anti-inflamatório,"Praticamente insolúvel em água, facilmente solúvel em álcool etílico",Classe I

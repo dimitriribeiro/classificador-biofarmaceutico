@@ -1,0 +1,47 @@
+{% extends "template.html" %}
+{% block conteudo %}
+
+    <main class="conteudo">
+        <img class="justando__imagem" src="../static/img/Biopharm Classifier API.png" width="400" height="400">
+        <section class="conteudo__apresentacao">
+            <h1 align="center" class="titulo">Seja Bem-vindo a API de Classificação Biofarmacêutica!</h1>
+            <p class="conteudo__apresentacao__paragrafo">
+                Essa é uma API produzida para ajudar os pesquisadores da área de ciências da saúde, em especial, os da área farmacêutica.
+                Muitas vezes, quando estamos pesquisando sobre insumos farmacêuticos ativos temos que encontrar uma informação muito
+                importante que é a classificação biofarmacêutica.
+            </p>
+            <p class="conteudo__apresentacao__paragrafo">
+                Essa informação nos diz dois dados importantes sobre as substâncias ativas que podem ser
+                vinculados em medicamentos. A solubilidade e a permeabilidade. A primeira nos diz sobre a
+                capacidade da substância se dissolver em água e a segunda se trata da capacidade do fármaco
+                ultrapassar as membranas células do corpo.
+
+            </p>
+            <p class="conteudo__apresentacao__paragrafo">
+                Contudo, essas informações de vital importância para produção e pesquisa de medicamentos
+                ainda estão muito dispersas na web. A ideia dessa API e resolver essa problemática, trazendo
+                para os pesquisadores que a utilizarem a facilidade de acesso da classificação biofarmacêutica.
+                E além disso, em breve esse site será aberto para contribuições de pesquisadores no Brasil inteiro.
+
+            </p>
+            <h1 align="center" class="titulo">O que é uma API?</h1>
+            <p class="conteudo__apresentacao__paragrafo">
+                API significa Interface de Programação de Aplicativos (do inglês Application Programming Interface).
+                É um conjunto de regras e protocolos que permite a comunicação entre diferentes softwares.
+            </p>
+            <h1 align="center" class="titulo">Onde iniciou a base que alimenta essa API?</h1>
+            <p class="conteudo__apresentacao__paragrafo">
+                As informações que alimentaram a base de dados dessa API tem como fonte a última edição
+                da farmacopeia brasileira.
+
+            </p>
+        </section>
+        <img class="apresentacao__imagem" src="../static/img/imagem-explicativa-sbc.png" alt="imagem-que-vou-colocar">
+        <h2 class="titulo" align="center">Clique no botão abaixo e copie o link que aparecer no navegador para ter acesso aos dados da API!</h2>
+        <a href="/apiclassificacaobiofarm" class="link__acesso">
+            Acesse a API
+        </a>
+        <p>{{ api }}</p>
+    </main>
+
+{% endblock %}

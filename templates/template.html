@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>{{titulo_head}}</title>
+    <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet" type="text/css"/>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__links" href="/">Início</a>
+            <a class="cabecalho__menu__links" href="/cadastrar">Cadastro de Substância</a>
+        </nav>
+    </header>
+
+    {% block conteudo %}
+    {% endblock %}
+
+    <footer class="rodape">
+        Desenvolvido por Yuri Dimitri Ribeiro Lima
+    </footer>
+
+</body>
+</html>

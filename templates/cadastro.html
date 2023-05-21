@@ -1,0 +1,38 @@
+{% extends "template.html" %}
+{% block conteudo %}
+    <main class="conteudo">
+
+        <section class="conteudo__apresentacao">
+            <h1 align="center" class="titulo">Contribuiba para nossa base de dados</h1>
+            <p class="conteudo__apresentacao__paragrafo">
+                Podemos criar um repositório com informações mais precisas acerca dos
+                fármacos que serão utilizados nas pesquisas farmacêuticas.
+            </p>
+            <form action="/solicitacao" method="post" id="solicitacao">
+
+                {% for etiqueta in labels_forms %}
+                <label class="conteudo__apresentacao__paragrafo">
+                    {{etiqueta|title}}:
+                </label>
+                <input type="text" id="{{etiqueta}}" name="{{etiqueta}}" placeholder="Digite aqui">
+
+                {% endfor %}
+                <input type="submit" value="Solicitar">
+            </form>
+            <script>
+                document.getElementById('solicitacao').addEventListener('submit', () => {
+                    event.preventDefault();
+
+                    Swal.fire({
+                        title: 'Digite todos os campos, por favor!',
+                        icon: 'error',
+                        timer: 100000
+                    });
+                });
+            </script>
+
+        </section>
+
+
+    </main>
+{% endblock %}
