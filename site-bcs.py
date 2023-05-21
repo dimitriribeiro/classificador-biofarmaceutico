@@ -65,10 +65,10 @@ def alerta():
 
 
 @app.route('/apiclassificacaobiofarm')
-def pegar_api(json=json):
-    dataset = {'nome_substancia': json.dumps(dataset_api['nome'].to_list()),
-               'classe_bio_farm': json.dumps(dataset_api['cls_biofarm'].to_list())}
-    return jsonify(dataset)
+def pegar_api():
+    global dataset_api
+    data_json = dataset_api.to_json(orient='records', force_ascii=False)
+    return data_json
 
 
 app.run(host='0.0.0.0', port=8080)
