@@ -4,11 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet" type="text/css"/>
     <title>Bem-vindo ao BioPharm Classifier</title>
 </head>
 <body>
-    <video autoplay muted loop id="background-video" >
-        <source src="{{ url_for('static', filename='videos/video_bem_vindos.mp4') }}" type="video/mp4">
-    </video>
+    <main>
+        <div class="relative">
+            <video autoplay muted loop class="video-container">
+                <source src="{{ url_for('static', filename='videos/video_bem_vindos.mp4') }}" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="fixed container">
+            <h1 class="titulo" align="center">Conheça nossa site e acesse a API clicando no link!</h1>
+            <div class="buttons">
+                <a href="/irparaosite">
+                    <button class="blob-btn">
+                        Clique Aqui
+                        <span class="blob-btn__inner">
+                            <span class="blob-btn__blobs">
+                             <span class="blob-btn__blob"></span>
+                             <span class="blob-btn__blob"></span>
+                             <span class="blob-btn__blob"></span>
+                             <span class="blob-btn__blob"></span>
+                            </span>
+                        </span>
+                  </button></a>
+                  <br/>
+
+                  <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                      <defs>
+                        <filter id="goo">
+                          <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+                          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo"></feColorMatrix>
+                          <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+                        </filter>
+                      </defs>
+                  </svg>
+            </div>
+
+        </div>
+    </main>
 </body>
 </html>

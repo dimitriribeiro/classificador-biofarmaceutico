@@ -23,6 +23,9 @@ class Subs:
 def bem_vindo():
     return render_template('bem-vindo.html')
 
+@app.route('/irparaosite')
+def irparaosite():
+    return render_template('index.html')
 
 @app.route('/index')
 def index():
