@@ -1,6 +1,4 @@
-import json
 import pandas as pd
-from sweetify import sweetify
 from flask import Flask, render_template, request, url_for, redirect, jsonify, flash
 
 dataset_api = pd.read_csv('insumos_farmaceuticos.csv')
@@ -21,8 +19,12 @@ class Subs:
     def __getitem__(self, item):
         return self.lista[item]
 
-
 @app.route('/')
+def bem_vindo():
+    return render_template('bem-vindo.html')
+
+
+@app.route('/index')
 def index():
     return render_template('index.html', titulo_head='SCB - API Helper')
 
@@ -31,7 +33,6 @@ def index():
 def novo():
     etiquetas = ['nome', 'referência', 'classe terapêutica', 'solubilidade', 'classificação biofarmacêutica']
     return render_template('cadastro.html', titulo='Requisiçao de Cadastro', labels_forms=etiquetas)
-
 
 @app.route('/solicitacao', methods=['POST', ])
 def solicitar():
@@ -71,4 +72,4 @@ def pegar_api():
     return data_json
 
 
-app.run(host='0.0.0.0', port=8080)
+app.run(debug=True, host='0.0.0.0', port=8080)
