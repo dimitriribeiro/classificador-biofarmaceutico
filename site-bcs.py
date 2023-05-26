@@ -1,9 +1,21 @@
+import os
 import pandas as pd
+from flask_sqlalchemy import SQLAlchemy
+from dotenv import load_dotenv
 from flask import Flask, render_template, request, url_for, redirect, jsonify, flash
 
+load_dotenv()
+
+
+#carregando base de dados de base
 dataset_api = pd.read_csv('insumos_farmaceuticos.csv')
-print(dataset_api.columns)
+
+
 app = Flask(__name__)
+
+#criando conexao de banco de dados
+app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DB_URI')
+db = SQLAlchemy(app)
 
 
 class Subs:
